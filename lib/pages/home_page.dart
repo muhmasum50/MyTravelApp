@@ -47,6 +47,7 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(left: 16, right: 16),
               child: Text('Hi Im Pixel', style: mTitleStyle),
             ),
+            SizedBox(height: 12),
             Container(
                 alignment: Alignment.centerLeft,
                 margin: EdgeInsets.only(left: 16, right: 16),
@@ -80,7 +81,7 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
                     ),
-                    SizedBox(height: 12),
+                    SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
